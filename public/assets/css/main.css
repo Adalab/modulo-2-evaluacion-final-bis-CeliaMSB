@@ -3,4 +3,48 @@
   margin: 0;
   padding: 0; }
 
+.friend {
+  background-color: #07f02e;
+  border-radius: 10%; }
+
+.page__header {
+  display: flex;
+  flex-direction: row;
+  background-color: #027750;
+  justify-content: center;
+  height: 50px;
+  padding-top: 10px; }
+
+.save-button {
+  margin: 10px 10px 10px;
+  height: 30px;
+  background-color: #07f02e;
+  border-color: #c7db10;
+  border-radius: 20%; }
+
+.retrieve-button {
+  margin: 10px 10px 10px;
+  height: 30px;
+  background-color: #07f02e;
+  border-color: #c7db10;
+  border-radius: 20%; }
+
+.page__main {
+  background-color: #027750; }
+
+.user-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  list-style-type: none; }
+
+.li-list {
+  width: 400px;
+  background-color: aqua;
+  text-align: center;
+  gap: 10px;
+  margin: 30px 30px;
+  border-radius: 20%; }
+
 /*# sourceMappingURL=main.css.map */
