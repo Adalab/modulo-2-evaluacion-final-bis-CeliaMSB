@@ -51,12 +51,12 @@
       const li = document.createElement('li');//Manipulando el DOM creamos el elemento li.
       li.innerHTML = `
         
-        <div class="li-list">
+        <article class="li-list">
         <img src="${user.photo}" alt="Photo of ${user.name}">
           <h3>${user.name}</h3>
           <p>${user.city}</p>
           <p>${user.username}</p>
-        </div>
+        </article>
       `;
 //Creamos un condicional, con classlist añadimos una clase de css al elemento clicado.
       if (user.isFriend) {
